@@ -10,3 +10,6 @@
         whoami
         date
         touch /var/tmp/test.txt
+      register: output
+    - debug: var=output
+      
