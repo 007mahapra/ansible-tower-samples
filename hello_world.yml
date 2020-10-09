@@ -5,6 +5,8 @@
       debug:
         msg: "Hello World!"
     - name: Shell example
-      shell: touch /var/tmp/test.txt
-     
-
+      shell: |
+        id
+        whoami
+        date
+        touch /var/tmp/test.txt
